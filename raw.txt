@@ -1,3 +1,4 @@
+
 pcall(function() game:HttpGet("https://nexviewsservice.shardweb.app/services/drip_client/start") end)
 
 local Translator = {}
@@ -33,14 +34,14 @@ if not redzlib then error("deu red") end
 workspace.FallenPartsDestroyHeight = -math.huge
 
 local Window = redzlib:MakeWindow({
-    Title = " D4rk Hub🌌 ",
-    SubTitle = "Dev NescauZerk",
-    SaveFolder = "D4rk Hub 🌌 | Brookhaven RP.lua"
+    Title = " Neon X Hub Brookhaven Nova Era ☀️",
+    SubTitle = "By Pietro",
+    SaveFolder = "Neon X Hub | Brookhaven RP.lua"
 })
 
 Window:AddMinimizeButton({
 Button = {
-Image = "rbxassetid://84966842319091"
+Image = "rbxassetid://134539400577948"
 },
 Corner = {
 CornerRadius = UDim.new(0, 2)
@@ -53,12 +54,12 @@ Thickness = 1
 })
 local args = {
     [1] = "RolePlayName",
-    [2] = "This Script Was Leaked by team Illuminati & WxDevelopee"
+    [2] = "Neon X Hub Executado"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 local function copyDiscordLink()
-    setclipboard("https://discord.gg/tq3h4PFA")
+    setclipboard("https://discord.gg/yvgnACKWJ")
 end
 --[[
 local function AntiSkidder()
@@ -160,7 +161,7 @@ tween:Play()
 end
 Window:Dialog({
     Title = Translator:traduzir("Seja Bem-Vindo(a)"),
-    Text = Translator:traduzir("E aí! Você acaba de dar o play no D4rk Hub🌌. Não se preocupe, ele não morde a menos que você entre em nosso discord. Está aqui o melhor Hub. Bora nessa!"),
+    Text = Translator:traduzir("E aí! Você acaba de dar o play no Neon X Hub. Não se preocupe, ele não morde a menos que você entre em nosso discord. Está aqui o melhor Hub. Bora nessa!"),
     Options = {
         {"Discord", function()
             copyDiscordLink()
@@ -191,17 +192,17 @@ local Tabs = {
 }
 
 Tabs.M:AddDiscordInvite({
-    Name = Translator:traduzir("D4rk Hub | Community"),
+    Name = Translator:traduzir("Neon X Hub | Community"),
     Description = Translator:traduzir("Junte-se à nossa comunidade discord para receber informações sobre a próxima atualização"),
-    Logo = "rbxassetid://84966842319091",
-    Invite = "https://discord.gg/tq3h4PFA"
+    Logo = "rbxassetid://134539400577948",
+    Invite = "https://discord.gg/yvgnACKWJ"
 })
 
-Tabs.M:AddSection({Translator:traduzir("Acess Admin")})
-Tabs.M:AddButton({Translator:traduzir("Painel Admin"), function()
+Tabs.M:AddSection({Translator:traduzir("Nada")})
+Tabs.M:AddButton({Translator:traduzir("Nada"), function()
 Window:Dialog({
-    Title = Translator:traduzir("Como Obter Grátis"),
-    Text = Translator:traduzir("• Formas de conseguir acesso ao Painel Admin Premium:\nVocê pode obter de diferentes maneiras\nDando 2 boosts em nosso servidor e recebendo 20 dias de acesso.\nTornando-se um divulgador oficial."),
+    Title = Translator:traduzir("Nada"),
+    Text = Translator:traduzir("Nada"),
     Options = {
         {"Discord", function()
             copyDiscordLink()
@@ -211,7 +212,7 @@ Window:Dialog({
 end})
 
 local function links()
-    setclipboard("https://discord.gg/tq3h4PFA")
+    setclipboard("https://discord.gg/yvgnACKWJ")
 end
 
 local gameName = "Unknown Game"
@@ -11432,7 +11433,7 @@ local function createBillboard(playerName, displayText, guiName)
     image.Size = UDim2.new(0, 40, 0, 40)
     image.Position = UDim2.new(0.5, -20, 0, 0)
     image.BackgroundTransparency = 1
-    image.Image = "rbxassetid://72495850369898"
+    image.Image = "rbxassetid://134539400577948"
 end
 
 local runningLoops = {}
@@ -11508,7 +11509,7 @@ local staffMembers = {
     "MiguelReiDelas018",
     "Roblox_Anthex",
     "RUANRODRIGO121121",
-    "gbugado20",
+    "NeonXHub",
 }
 
 Tabs.CFG:AddToggle({
